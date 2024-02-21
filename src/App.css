@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-image: url(Assets/background.jpg);
+  background-repeat: no repeat;
+  background-size: cover;
   min-height: 100vh;
+  background-position: center;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-top: 170px;
+  background-color: antiquewhite;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.Container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Advice {
+  margin-top: 30px;
+  background-color: rgba(229, 230, 199, 0.841);
+  width: 700px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
 }
