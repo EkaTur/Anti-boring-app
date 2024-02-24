@@ -19,7 +19,7 @@ function App() {
 
   const handleClick = () => {
     gsap.fromTo('.box-1', { rotation: 0 }, { rotation: 360 });
-    gsap.fromTo('.box-2', { scale: 0 }, { scale: 2 });
+    gsap.fromTo('.box-2', { scale: 0 }, { scale: 1 });
   }
 
   const getAdvice = async () => {
