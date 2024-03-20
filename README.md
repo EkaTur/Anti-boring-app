@@ -2,6 +2,10 @@
 
 Welcome to the Boredom Buster App! This simple web application helps you find activities to do when you're feeling bored. With just a click, you can get advice and stay busy!
 
+## Live Demo
+
+You can check out the live version of this website [here](https://anti-boredom.netlify.app/).
+
 ## Features
 
 - **Get Advice**: Click on the button to fetch a random activity suggestion from the Bored API.
